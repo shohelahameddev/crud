@@ -1,0 +1,79 @@
+/* Deep dark background so the neon pops */
+body {
+    background-color: #0b0c10;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Neon Labels */
+.form-label {
+    color: rgba(0, 255, 255, 0.9); /* ARGB Cyan */
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.5), 0 0 10px rgba(0, 255, 255, 0.3);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Neon Inputs and Textarea */
+.form-control {
+    background-color: rgba(25, 25, 35, 0.65) !important; /* Translucent dark background */
+    border: 2px solid rgba(0, 255, 255, 0.4) !important;
+    color: #fff !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+/* Input Focus Neon Glow Flare */
+.form-control:focus {
+    background-color: rgba(25, 25, 35, 0.8) !important;
+    border-color: rgba(0, 255, 255, 1) !important;
+    box-shadow: 0 0 8px rgba(0, 255, 255, 0.6), 
+                0 0 15px rgba(0, 255, 255, 0.4), 
+                inset 0 0 5px rgba(0, 255, 255, 0.2) !important;
+}
+
+/* Neon Red Error Messages */
+.errorOne, .errorTwo {
+    color: rgba(255, 46, 99, 1);
+    font-size: 0.9rem;
+    margin-top: 5px;
+    font-weight: 500;
+    text-shadow: 0 0 8px rgba(255, 46, 99, 0.4);
+}
+
+/* Neon Pink Post Button */
+.postbutton {
+    background: rgba(255, 0, 127, 0.2) !important; /* ARGB Pink base */
+    border: 2px solid rgba(255, 0, 127, 0.8) !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px rgba(255, 0, 127, 0.4);
+    transition: all 0.3s ease;
+}
+
+.postbutton:hover {
+    background: rgba(255, 0, 127, 0.8) !important;
+    box-shadow: 0 0 15px rgba(255, 0, 127, 0.8), 
+                0 0 25px rgba(255, 0, 127, 0.4);
+    color: #fff !important;
+    transform: translateY(-2px);
+}
+
+/* Generated Neon Cards inside .tumplate */
+.tumplate .card {
+    background: rgba(20, 20, 30, 0.7) !important; /* Translucent glass effect */
+    border: 2px solid rgba(0, 255, 255, 0.3) !important;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+    backdrop-filter: blur(5px); /* Soft glass look */
+    color: #fff;
+}
+
+.tumplate .card-title {
+    color: rgba(0, 255, 255, 1);
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+}
+
