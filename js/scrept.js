@@ -14,7 +14,7 @@ postbutton.addEventListener("click", () => {
   errorOne.innerHTML = ""
   errorTwo.innerHTML = ""
 
-  let namePattern = /^[a-zA-Z\s]+$/;
+  let namePattern = /^[a-zA-Z\u0980-\u09FF\s]+$/; 
 
   if (name.value.trim() === "") {
     errorOne.innerHTML = "Please enter Your name"
